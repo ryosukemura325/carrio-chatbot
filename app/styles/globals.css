@@ -126,3 +126,22 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+.user-message {
+  background-color: #DCF8C6; /* ユーザーの吹き出しをLINE風に */
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 75%;
+  margin: 8px;
+}
+
+.bot-message {
+  background-color: #F1F0F0; /* ボットの吹き出しを薄いグレーに */
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 75%;
+  margin: 8px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
+}
